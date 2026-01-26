@@ -23,6 +23,12 @@ Logistic Regression performed the best and was selected as the final model.
 - Scikit-learn
 - TF-IDF Vectorizer
 
+## Dataset
+The dataset used in this project is a publicly available dataset from Kaggle and is not included in this repository.
+
+You can access it here:
+https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
+
 ## Results
 
 - Accuracy: around 76%
