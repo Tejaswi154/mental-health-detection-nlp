@@ -1,44 +1,55 @@
 # Mental Health Detection using NLP
 
-This project is an NLP-based machine learning system that analyzes social media text to detect possible mental health risks.
+## Overview
 
-The idea behind this project is that people often express their emotions and struggles on platforms like Twitter. By cleaning and processing this text and applying machine learning models, the system classifies whether a post shows signs related to mental health concerns.
+This project is a Natural Language Processing (NLP) based machine learning system designed to identify potential mental health risks from social media text.
 
-## About the Project
+With the growing use of platforms like Twitter, individuals often express their emotions, stress, and mental state online. This system processes such textual data and classifies whether a given input indicates possible mental health concerns.
 
-This project follows a complete NLP workflow:
+---
 
-- Text cleaning and preprocessing
-- Feature extraction using TF-IDF
-- Training machine learning models such as Logistic Regression and Random Forest
-- Evaluating and comparing model performance
+## Project Description
 
-Logistic Regression performed the best and was selected as the final model.
+The project follows a standard NLP pipeline to transform raw text into meaningful insights:
 
-## Tools and Libraries Used
+- Performed text cleaning and preprocessing (removal of noise, stopwords)
+- Applied tokenization and lemmatization techniques
+- Converted text data into numerical features using TF-IDF vectorization
+- Trained multiple machine learning models including Logistic Regression and Random Forest
+- Evaluated model performance using standard classification metrics
 
-- Python
-- Pandas and NumPy
-- NLTK
-- Scikit-learn
-- TF-IDF Vectorizer
+Among the models tested, Logistic Regression achieved the best performance and was selected as the final model.
+
+---
+
+## Tech Stack
+
+- Programming Language: Python  
+- Libraries: Pandas, NumPy, NLTK, Scikit-learn  
+- NLP Techniques: Text preprocessing, Tokenization, Lemmatization, TF-IDF  
+
+---
 
 ## Dataset
-The dataset used in this project is a publicly available dataset from Kaggle and is not included in this repository.
 
-You can access it here:
-https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
+https://www.kaggle.com/datasets/bhavikjikadara/mental-health-dataset
 
 ## Results
 
-- Accuracy: around 76%
-- ROC-AUC score: about 0.85
+- Accuracy: ~76%  
+- ROC-AUC Score: ~0.85  
+
+The model demonstrates a reasonable ability to distinguish between normal and potentially concerning text patterns.
+
+---
 
 ## Future Improvements
 
-- Use deep learning models like LSTM or BERT
-- Build a web application for predictions
-- Work with real-time social media data
+- Implement deep learning models such as LSTM or BERT for improved context understanding  
+- Develop a web-based interface for real-time predictions  
+- Integrate with live social media data sources  
+
+---
 
 ## Author
 
